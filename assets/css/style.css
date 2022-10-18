@@ -13,6 +13,7 @@ nav{
     position: fixed;
     width: 100%;
     top: 0;
+    z-index:2;
 }
 
 .flex{
@@ -55,6 +56,7 @@ nav{
 
 .card{
     line-height: 0px;
+    position: relative;
 }
 
 .card > img{
@@ -82,4 +84,36 @@ h6{
 
 .card:hover .img-2{
     display: inline-block;
+}
+
+.heart{
+    position: absolute;
+    background-color: white;
+    padding: 10px;
+    top: 10px;
+    right: 0px;
+    font-size: 1.5rem;
+}
+
+.fa-heart:hover{
+    color: red;
+}
+
+.discount{
+    color: white;
+    background-color: red;
+    padding: 15px 10px;
+    position: absolute;
+    bottom: 30px;
+    left: 0px;
+    z-index: 1;
+}
+
+.green{
+    color: white;
+    background-color: green;
+    padding: 15px 10px;
+    position: absolute;
+    bottom: 30px;
+    left: 60px;
 }
