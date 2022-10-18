@@ -35,8 +35,9 @@ nav{
     padding: 20px 0;
 }
 
-.menu-left > li, .menu-right > li{
-    padding: 0 5px;
+.menu-left > li, .menu-right > li, .list li{
+    padding: 0 10px;
+    padding-left: 0;
 }
 
 .menu-left > li:hover{
@@ -62,6 +63,10 @@ nav{
 .card > img{
     max-width: 100%;
     object-fit: contain;
+}
+
+h3{
+    font-size: 1.1rem;
 }
 
 h5{
@@ -116,4 +121,18 @@ h6{
     position: absolute;
     bottom: 30px;
     left: 60px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 30px 0;
+}
+
+.end{
+    line-height: 40px;
+}
+
+.fa-brands{
+    font-size: 1.4rem;
 }
