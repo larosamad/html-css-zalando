@@ -54,7 +54,7 @@ nav{
 }
 
 .card{
-    background-color: blueviolet;
+    line-height: 0px;
 }
 
 .card > img{
